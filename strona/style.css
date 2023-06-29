@@ -1,0 +1,189 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+    {
+        background: #1F6E8C;
+        margin: 0;
+        padding: 0;
+        color: white;
+    }
+.nav
+    {
+        width: 100vw;
+        height: 5vh;
+        background: #0E2954;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+.container
+    {
+        width: 100vw;
+        height: 90vh;
+        overflow-y: auto;
+    }
+.footer
+    {
+        width: 100vw;
+        height: 5vh;
+        background: #84A7A1;
+        position: fixed;
+    }
+.wyjazdy
+    {
+        border-radius: 10px ;
+        padding: 10px;
+        margin: 30px;
+        background: rgba(46, 138, 153, 0.6);
+    }
+.pole
+    {
+        margin: 15px;
+    }
+.cel
+    {
+        margin-left: 5px;
+        background: #84A7A1;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 5px;
+    }
+.nazwa-wyjazdu, .opis-wyjazdu
+      {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+h1
+    {
+        padding-left: 20px;
+    }
+.ikonka
+    {
+        height: 25px;
+        width: 25px;
+        padding: 5px;
+    }
+.ikonka:hover
+    {
+        cursor: pointer;
+        background: rgba(128, 128, 128,0.7);
+        border-radius: 5px;
+    }
+.dane-wyjazdu
+    {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+.line
+    {
+        float: right;
+        width: 35px;
+        height: 35px;
+        margin-right: 15px;
+    }
+.line:hover
+    {
+        background-size: 45px;
+        background: rgba(128, 128, 128, 0.2);
+        border-radius: 10px;
+        cursor: pointer;
+    }
+.opis
+    {
+        width: 350px;
+        height: 150px;
+    }
+.osoba
+    {   
+        margin: 20px;
+        text-align: center;
+        border-radius: 10px;
+        border: 2px solid black;
+        width: 200px;
+        height: 230px;
+    }
+.zdjecie
+    {
+        width: 150px;
+    }
+.imie-naz
+    {
+        padding: 10px;
+        background: #0E2954;
+        border-radius: 0 0 8px 8px;
+    }
+.rola
+{
+    padding: 10px;
+    background: #0E2954;
+    border-radius: 8px 8px 0 0;
+}
+.Opiekun
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+.team
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.container::-webkit-scrollbar {
+    width: 0em;
+  }
+.all-team
+  {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+.button-log
+  {
+    background: #1F6E8C;
+    width: 100px;
+    height: 25px;
+    border-radius: 20px;
+  }
+  .line:hover ~ .block {
+    display: block;
+  }
+  .block {
+    position: fixed;
+    bottom: 0;
+    width: 50%;
+    height: 5vh;
+    background: #0E2954;
+    color: #fff;
+    font-weight: bold;
+    z-index: 10001;
+    display: none;
+    text-align: center;
+    line-height: 5vh;
+  }
+.img-dodaj
+  {
+    height: 80px;
+    background: rgba(46, 138, 153, 0.6);
+    border-radius: 40px;
+
+  }
+.dodaj
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
